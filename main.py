@@ -3,6 +3,17 @@ import time
 import mss # Screen input
 
 
+#------------------#
+#
+#To do:
+#
+#-> Plan out what its actually meant to do/farm
+#-> Figure out how many layers of jitter/noise to add to movements
+#-> Figure out how to deal with isometric view, and how best to do movement choices (Centering mouse, not being suspicious, planning route, then adding appropriate noise, calibrating location, etc)
+#-> Brainstorm PVP bot :P
+#
+#------------------#
+
 def set_up_func():
     pass
 
@@ -33,5 +44,6 @@ def create_path():
 def logout():
     pass
 
-read_screen_region()
+#------------------#
 
+read_screen_region()
